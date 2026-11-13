@@ -1,0 +1,6 @@
+# A palette file of your own, with any keys you like. #RRGGBBAA colours are
+# partly transparent. Used by glass.txt.
+o #2B2B3A outline
+g #A6E3FF66 glass, 40% opaque
+h #FFFFFFCC highlight
+w #E33B3B wine

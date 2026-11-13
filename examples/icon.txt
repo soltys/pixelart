@@ -1,0 +1,21 @@
+# A Windows icon. 'ico' writes folder.ico holding every size up to 256x256
+# (here 16, 32, 64, 128 and 256 px), next to the PNGs.
+#   pixelart -o out examples\icon.txt
+
+sprite folder x1 x2 x4 x8 x16 ico
+................
+.44444..........
+4999994.........
+49999994444444..
+4999999999999994
+4aaaaaaaaaaaaaa4
+4aaaaaaaaaaaaaa4
+4aaaaaaaaaaaaaa4
+4aaaaaaaaaaaaaa4
+4aaaaaaaaaaaaaa4
+4aaaaaaaaaaaaaa4
+4aaaaaaaaaaaaaa4
+4aaaaaaaaaaaaaa4
+4999999999999994
+.44444444444444.
+................

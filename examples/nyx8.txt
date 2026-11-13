@@ -1,0 +1,13 @@
+# A wide (16x8) night scene in Javier Guerrero's nyx8:
+#   pixelart -p nyx8 -o out examples\nyx8.txt
+# 0 night  1 dark blue  2 hills  3 moon  7 ground
+
+sprite night x1 x4
+0000000000000000
+0003300000010000
+0033330000000000
+0033300000000100
+0003000010000000
+2222000000000222
+7777222002227777
+7777777777777777

@@ -49,6 +49,33 @@ else()
     target_link_options(pixelart PRIVATE -municode)
 endif()
 
+# `cmake --build --preset release --target examples` renders every sheet in
+# examples/ into <build>/examples. The palette comes from the file name:
+# examples/db16.txt uses the bundled db16 palette, examples/glass.txt uses
+# examples/glass-palette.txt, anything else the default PICO-8.
+file(GLOB PIXELART_EXAMPLES CONFIGURE_DEPENDS "${PROJECT_SOURCE_DIR}/examples/*.txt")
+list(FILTER PIXELART_EXAMPLES EXCLUDE REGEX "-palette\\.txt$")
+set(PIXELART_EXAMPLES_OUT "${PROJECT_BINARY_DIR}/examples")
+set(PIXELART_EXAMPLE_COMMANDS "")
+foreach(sheet IN LISTS PIXELART_EXAMPLES)
+    get_filename_component(name "${sheet}" NAME_WE)
+    set(palette_args "")
+    set(palette_file "${PROJECT_SOURCE_DIR}/examples/${name}-palette.txt")
+    if(EXISTS "${palette_file}")
+        set(palette_args -p "${palette_file}")
+    elseif(EXISTS "${PROJECT_SOURCE_DIR}/palettes/${name}.txt")
+        set(palette_args -p "${name}")
+    endif()
+    list(APPEND PIXELART_EXAMPLE_COMMANDS
+        COMMAND $<TARGET_FILE:pixelart> ${palette_args} -o "${PIXELART_EXAMPLES_OUT}" "${sheet}")
+endforeach()
+add_custom_target(examples
+    ${PIXELART_EXAMPLE_COMMANDS}
+    DEPENDS pixelart
+    WORKING_DIRECTORY "${PROJECT_SOURCE_DIR}"
+    COMMENT "Rendering examples/*.txt into ${PIXELART_EXAMPLES_OUT}"
+    VERBATIM)
+
 if(PROJECT_IS_TOP_LEVEL)
     install(TARGETS pixelart RUNTIME DESTINATION .)
 endif()

@@ -12,3 +12,33 @@ sprite heart x1 x4
 ..8888..
 ...88...
 ........
+
+sprite coin x1 x4
+..9999..
+.9aaaa9.
+9aa77aa9
+9a7aaaa9
+9aaaaaa9
+9aaaa4a9
+.9aaaa9.
+..9999..
+
+sprite potion x1 x4
+...44...
+...44...
+..6..6..
+..6..6..
+.6cccc6.
+6cc7ccc6
+6ccccc16
+.666666.
+
+sprite key x1 x4
+........
+.aaa....
+a9.9a...
+a...aaaa
+a9.9a9a9
+.aaa..a.
+........
+........

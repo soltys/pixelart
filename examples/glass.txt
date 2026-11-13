@@ -1,0 +1,14 @@
+# Drawn with a palette file instead of a bundled palette:
+#   pixelart -p examples\glass-palette.txt -o out examples\glass.txt
+
+sprite glass x1 x4
+o......o
+og....ho
+og...hgo
+owwwwwwo
+owwwwwwo
+.owwwwo.
+..oooo..
+...oo...
+...oo...
+.oooooo.

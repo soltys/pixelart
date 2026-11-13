@@ -1,0 +1,12 @@
+# ZX Spectrum colours:  pixelart -p zx-spectrum -o out examples\zx-spectrum.txt
+# d bright cyan  f bright white  e bright yellow  a bright red
+
+sprite rocket x1 x4
+...dd...
+..dffd..
+..dddd..
+.dddddd.
+dd.dd.dd
+d..aa..d
+...ea...
+...e....

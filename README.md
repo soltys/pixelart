@@ -51,7 +51,8 @@ bb..bb..
 - A blank line, or the next `sprite` line, ends the sprite. Lines starting
   with `#` are comments.
 
-See [`examples/`](examples) for ready-to-run sheets.
+See [`examples/`](examples) for ready-to-run sheets; the `examples` build
+target renders them all (`cmake --build --preset release --target examples`).
 
 ## Palettes
 
