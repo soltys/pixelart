@@ -1,0 +1,22 @@
+# The PICO-8 palette, the same colours pixelart uses when no -p is given.
+# Copy this file to start your own palette.
+#
+# <key> <colour> [name]
+#   key     one character (anything printable except '.', '#' and space)
+#   colour  #RRGGBB, or #RRGGBBAA for partly transparent colours
+0 #000000 black
+1 #1D2B53 dark blue
+2 #7E2553 dark purple
+3 #008751 dark green
+4 #AB5236 brown
+5 #5F574F dark grey
+6 #C2C3C7 light grey
+7 #FFF1E8 white
+8 #FF004D red
+9 #FFA300 orange
+a #FFEC27 yellow
+b #00E436 green
+c #29ADFF blue
+d #83769C lavender
+e #FF77A8 pink
+f #FFCCAA light peach

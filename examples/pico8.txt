@@ -1,0 +1,14 @@
+# Drawn with the default PICO-8 palette:  pixelart -o out examples\pico8.txt
+# 0 black  1 dark blue  2 dark purple  3 dark green  4 brown  5 dark grey
+# 6 light grey  7 white  8 red  9 orange  a yellow  b green  c blue
+# d lavender  e pink  f light peach   (. = transparent)
+
+sprite heart x1 x4
+.88..88.
+8ee88888
+8e888888
+88888888
+.888888.
+..8888..
+...88...
+........

@@ -1,0 +1,6 @@
+# The four greens of the original Game Boy screen, darkest to lightest.
+# Use with:  pixelart -p palettes\gameboy.txt examples\gameboy.txt
+0 #0F380F darkest
+1 #306230 dark
+2 #8BAC0F light
+3 #9BBC0F lightest

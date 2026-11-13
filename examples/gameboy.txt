@@ -1,0 +1,12 @@
+# Drawn with palettes/gameboy.txt:
+#   pixelart -p palettes\gameboy.txt -o out examples\gameboy.txt
+
+sprite smiley x1 x4
+.000000.
+03333330
+03033030
+03333330
+03033030
+03300330
+03333330
+.000000.
