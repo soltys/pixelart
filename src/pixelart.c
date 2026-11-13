@@ -2,7 +2,7 @@
  * pixelart: turns text sprite sheets into PNG (and ICO) assets.
  * No editor, no window: edit the text, run the tool, commit the PNGs.
  *
- *   pixelart.exe [-o outdir] [-p palette.txt] sheet.txt [more.txt ...]
+ *   pixelart.exe [-o outdir] [-p palette] sheet.txt [more.txt ...]
  *
  * Sheet format:
  *
@@ -17,7 +17,8 @@
  * scaled by plain repetition, so they stay hard-edged. The extra word `ico`
  * also writes name.ico (Windows icon) holding every scale up to 256x256.
  *
- * The palette is PICO-8 unless -p names a palette file (see README.md).
+ * The palette is PICO-8 unless -p names a palette file or one of the
+ * palettes compiled into the exe from palettes/ (see README.md).
  *
  * Windows only, MSVC. The single dependency, stb_image_write, is vendored in
  * third_party/stb.
@@ -47,6 +48,9 @@
 #ifdef _MSC_VER
 #pragma warning(pop)
 #endif
+
+/* EMBEDDED_PALETTES: the .txt files in palettes/, generated at build time */
+#include "palettes.h"
 
 #ifndef PIXELART_VERSION
 #define PIXELART_VERSION "dev"
@@ -244,13 +248,9 @@ static bool make_dirs(const char *path)
  *   colour  #RRGGBB or #RRGGBBAA ('#' optional)
  * '#' at the start of a line is a comment; blank lines are ignored.
  */
-static bool load_palette(const char *path)
+/* Parses palette text (modified in place); `path` names it in messages. */
+static bool parse_palette(char *text, const char *path)
 {
-    char *text = load_file(path);
-    if (!text) {
-        fail(path, 0, "can't read palette: %s", last_error());
-        return false;
-    }
     int before = errors;
     palette_reset();
     snprintf(pal.source, sizeof pal.source, "%s", path);
@@ -293,9 +293,83 @@ static bool load_palette(const char *path)
             break;
         }
     }
-    free(text);
     if (errors == before && pal.count == 0) fail(path, 0, "the palette defines no colours");
     return errors == before;
+}
+
+/* A bundled palette by name ("db32", "DB32" or "db32.txt"), or -1. */
+static int find_embedded(const char *name)
+{
+    size_t n = strlen(name);
+    if (n > 4 && _stricmp(name + n - 4, ".txt") == 0) n -= 4;
+    for (int i = 0; i < EMBEDDED_PALETTE_COUNT; i++)
+        if (strlen(EMBEDDED_PALETTES[i].name) == n && _strnicmp(EMBEDDED_PALETTES[i].name, name, n) == 0)
+            return i;
+    return -1;
+}
+
+static bool is_file(const char *path)
+{
+    wchar_t *w = widen(path);
+    DWORD attr = w ? GetFileAttributesW(w) : INVALID_FILE_ATTRIBUTES;
+    free(w);
+    return attr != INVALID_FILE_ATTRIBUTES && !(attr & FILE_ATTRIBUTE_DIRECTORY);
+}
+
+/* -p: a palette file if one exists at that path, else a bundled palette. */
+static bool load_palette(const char *arg)
+{
+    char *text;
+    char source[MAX_PATH * 3];
+    if (is_file(arg)) {
+        text = load_file(arg);
+        if (!text) {
+            fail(arg, 0, "can't read palette: %s", last_error());
+            return false;
+        }
+        snprintf(source, sizeof source, "%s", arg);
+    } else {
+        int i = find_embedded(arg);
+        if (i < 0) {
+            fprintf(stderr, "error: '%s' is neither a palette file nor a bundled palette "
+                            "(pixelart --list-palettes shows them)\n", arg);
+            errors++;
+            return false;
+        }
+        text = _strdup(EMBEDDED_PALETTES[i].text);
+        if (!text) return false;
+        snprintf(source, sizeof source, "%s", EMBEDDED_PALETTES[i].name);
+    }
+    bool ok = parse_palette(text, source);
+    free(text);
+    return ok;
+}
+
+/* --list-palettes: name and the title from the palette's first comment. */
+static void list_palettes(void)
+{
+    for (int i = 0; i < EMBEDDED_PALETTE_COUNT; i++) {
+        const char *t = EMBEDDED_PALETTES[i].text;
+        int title_len = 0;
+        const char *title = "";
+        for (const char *l = t; *l;) {
+            const char *e = strchr(l, '\n');
+            size_t len = e ? (size_t)(e - l) : strlen(l);
+            while (len && (*l == ' ' || *l == '\t')) l++, len--;
+            if (len && *l == '#') {
+                if (!*title) {
+                    title = l + 1;
+                    title_len = (int)len - 1;
+                    while (title_len && *title == ' ') title++, title_len--;
+                    while (title_len && (title[title_len - 1] == '\r' || title[title_len - 1] == ' '))
+                        title_len--;
+                }
+            }
+            if (!e) break;
+            l = e + 1;
+        }
+        printf("%-20s %.*s\n", EMBEDDED_PALETTES[i].name, title_len, title);
+    }
 }
 
 /* ------------------------------------------------------------ sprites ---- */
@@ -583,10 +657,14 @@ static void process(const char *file)
 
 static void usage(FILE *f)
 {
-    fputs("usage: pixelart [-o outdir] [-p palette.txt] sheet.txt [more.txt ...]\n"
+    fputs("usage: pixelart [-o outdir] [-p palette] sheet.txt [more.txt ...]\n"
           "\n"
           "  -o dir           write the images to dir (created if missing; default: .)\n"
-          "  -p palette.txt   use the colours in palette.txt instead of PICO-8\n"
+          "  -p palette       use another palette instead of PICO-8: a palette file,\n"
+          "                   or the name of a bundled one (e.g. -p db32)\n"
+          "  --list-palettes  list the bundled palettes\n"
+          "  --show-palette name\n"
+          "                   print a bundled palette, e.g. to start your own\n"
           "  -h, --help       show this help\n"
           "  --version        print the version\n",
           f);
@@ -612,6 +690,17 @@ int wmain(int argc, wchar_t **wargv)
             else palette_file = argv[++i];
         } else if (strcmp(a, "-h") == 0 || strcmp(a, "--help") == 0 || strcmp(a, "/?") == 0) {
             usage(stdout);
+            return 0;
+        } else if (strcmp(a, "--list-palettes") == 0) {
+            list_palettes();
+            return 0;
+        } else if (strcmp(a, "--show-palette") == 0 && i + 1 < argc) {
+            int k = find_embedded(argv[i + 1]);
+            if (k < 0) {
+                fprintf(stderr, "error: no bundled palette '%s' (see --list-palettes)\n", argv[i + 1]);
+                return 1;
+            }
+            fputs(EMBEDDED_PALETTES[k].text, stdout);
             return 0;
         } else if (strcmp(a, "--version") == 0) {
             printf("pixelart %s\n", PIXELART_VERSION);

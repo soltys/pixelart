@@ -1,5 +1,5 @@
-# Drawn with palettes/gameboy.txt:
-#   pixelart -p palettes\gameboy.txt -o out examples\gameboy.txt
+# Drawn with the bundled gameboy palette (palettes/gameboy.txt):
+#   pixelart -p gameboy -o out examples\gameboy.txt
 
 sprite smiley x1 x4
 .333333.

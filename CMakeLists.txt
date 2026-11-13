@@ -22,9 +22,21 @@ endif()
 
 # Text sprite sheets -> PNG/ICO. The only dependency, stb_image_write, is
 # vendored in third_party/stb.
-add_executable(pixelart src/pixelart.c)
+# Every palettes/*.txt is compiled into the exe (see cmake/EmbedPalettes.cmake),
+# so `pixelart -p db32` works with nothing next to pixelart.exe.
+file(GLOB PIXELART_PALETTES CONFIGURE_DEPENDS "${PROJECT_SOURCE_DIR}/palettes/*.txt")
+set(PIXELART_PALETTES_H "${PROJECT_BINARY_DIR}/generated/palettes.h")
+add_custom_command(
+    OUTPUT "${PIXELART_PALETTES_H}"
+    COMMAND "${CMAKE_COMMAND}" "-DPALETTE_DIR=${PROJECT_SOURCE_DIR}/palettes"
+            "-DOUT=${PIXELART_PALETTES_H}" -P "${PROJECT_SOURCE_DIR}/cmake/EmbedPalettes.cmake"
+    DEPENDS ${PIXELART_PALETTES} "${PROJECT_SOURCE_DIR}/cmake/EmbedPalettes.cmake"
+    COMMENT "Embedding palettes/*.txt"
+    VERBATIM)
+
+add_executable(pixelart src/pixelart.c "${PIXELART_PALETTES_H}")
 set_target_properties(pixelart PROPERTIES C_STANDARD 11 C_STANDARD_REQUIRED ON)
-target_include_directories(pixelart PRIVATE third_party/stb)
+target_include_directories(pixelart PRIVATE third_party/stb "${PROJECT_BINARY_DIR}/generated")
 target_compile_definitions(pixelart PRIVATE
     PIXELART_VERSION="${PROJECT_VERSION}"
     UNICODE _UNICODE _CRT_SECURE_NO_WARNINGS)

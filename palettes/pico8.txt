@@ -1,4 +1,4 @@
-# The PICO-8 palette, the same colours pixelart uses when no -p is given.
+# PICO-8 (16 colours), the palette pixelart uses when no -p is given.
 # Copy this file to start your own palette.
 #
 # <key> <colour> [name]
