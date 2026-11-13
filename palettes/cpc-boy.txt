@@ -1,0 +1,39 @@
+# CPC Boy (32 colours)
+# by Arne Niklas Jansson
+# http://androidarts.com/palette/16pal.htm
+# Inspired by the Armstrad CPC palette with a Gameboy screen gradient added.
+# Converted from Aseprite (data/extensions/arne-palettes/cpc-boy.gpl).
+# Keys in Aseprite's colour order: 0-9 a-v
+
+0 #000000
+1 #1B1B76
+2 #3636D8
+3 #761F28
+4 #623870
+5 #953EA7
+6 #CC3636
+7 #CE4B7A
+8 #E3669A
+9 #1B761B
+a #197F96
+b #1986F2
+c #8C6E1A
+d #8E8E8E
+e #9C9EE7
+f #E48E2A
+g #EAA597
+h #FE80FE
+i #54BF47
+j #37C79F
+k #35CFE4
+l #8DD836
+m #B8D1B5
+n #97E9D1
+o #EDD446
+p #EBE4A4
+q #FFFFFF
+r #F2EFE7
+s #BAC375
+t #859550
+u #485D48
+v #293941

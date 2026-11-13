@@ -1,0 +1,20 @@
+# Solarized (16 colours)
+# Converted from Aseprite (data/extensions/software-palettes/solarized.gpl).
+# Keys in Aseprite's colour order: 0-9 a-f
+
+0 #002B36 solarized-base03
+1 #073642 solarized-base02
+2 #586E75 solarized-base01
+3 #657B83 solarized-base00
+4 #839496 solarized-base0
+5 #93A1A1 solarized-base1
+6 #EEE8D5 solarized-base2
+7 #FDF6E3 solarized-base3
+8 #B58900 solarized-yellow
+9 #CB4B16 solarized-orange
+a #DC322F solarized-red
+b #D33682 solarized-magenta
+c #6C71C4 solarized-violet
+d #268BD2 solarized-blue
+e #2AA198 solarized-cyan
+f #859900 solarized-green

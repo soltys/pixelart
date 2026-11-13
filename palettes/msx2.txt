@@ -1,0 +1,20 @@
+# MSX2 (16 colours)
+# Converted from Aseprite (data/extensions/hardware-palettes/msx2.gpl).
+# Keys in Aseprite's colour order: 0-9 a-f
+
+0 #00000000 Transparent
+1 #010101 Black
+2 #24DB24 Medium green
+3 #6DFF6D Light green
+4 #2424FF Dark blue
+5 #496DFF Light blue
+6 #B62424 Dark red
+7 #49DBFF Cyan
+8 #FF2424 Medium red
+9 #FF6D6D Light red
+a #DBDB24 Dark yellow
+b #DBDB92 Light yellow
+c #249224 Dark green
+d #DB49B6 Magenta
+e #B6B6B6 Gray
+f #FFFFFF White

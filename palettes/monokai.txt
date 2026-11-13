@@ -1,0 +1,16 @@
+# Monokai (12 colours)
+# Converted from Aseprite (data/extensions/software-palettes/monokai.gpl).
+# Keys in Aseprite's colour order: 0-9 a-b
+
+0 #000000 Blank
+1 #1B1D1E Black
+2 #272820 Darker-brown
+3 #3E3D32 Dark-brown
+4 #75715E Bown
+5 #F8F8F2 White
+6 #F92672 Red
+7 #FD971F Orange
+8 #E6DB74 Yellow
+9 #66D9EF Blue
+a #A6E22E Green
+b #AE81FF Purple

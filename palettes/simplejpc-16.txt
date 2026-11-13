@@ -1,0 +1,29 @@
+# SimpleJPC-16 (16 colours)
+# ------------------------------------------------------
+# S i m p l e J P C - 1 6   P a l e t t e
+# ------------------------------------------------------
+# Created by Adigun Azikiwe Polack.
+# (c)2018 Adigun Azikiwe Polack.  All Rights Reserved.
+# ------------------------------------------------------
+# https://twitter.com/AdigunPolack
+# http://pixeljoint.com/pixelart/119844.htm
+# by Adigun A. Polack (https://twitter.com/AdigunPolack)
+# Converted from Aseprite (data/extensions/adigunpolack-palettes/simplejpc-16.gpl).
+# Keys in Aseprite's colour order: 0-9 a-f
+
+0 #050403 Rich Black (FOGRA39)
+1 #221F31 Raisin Black
+2 #543516 Cafe Noir
+3 #9B6E2D Metallic Sunburst
+4 #E1B047 Sunray
+5 #F5EE9B Flavescent
+6 #FEFEFE White
+7 #8BE1E0 Pale Robin Egg Blue
+8 #7CC264 Mantis
+9 #678FCB Livid
+a #316F23 Mughal Green
+b #404A68 Independence
+c #A14D3F Reddish Coconut
+d #A568D4 Rich Lavender
+e #9A93B7 Glossy Grape
+f #EA9182 Dark Salmon

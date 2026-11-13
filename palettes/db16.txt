@@ -1,0 +1,22 @@
+# DB16 (16 colours)
+# by Richard "DawnBringer" Fhager
+# http://pixeljoint.com/forum/forum_posts.asp?TID=12795
+# Converted from Aseprite (data/extensions/dawnbringer-palettes/db16.gpl).
+# Keys in Aseprite's colour order: 0-9 a-f
+
+0 #140C1C
+1 #442434
+2 #30346D
+3 #4E4A4E
+4 #854C30
+5 #346524
+6 #D04648
+7 #757161
+8 #597DCE
+9 #D27D2C
+a #8595A1
+b #6DAA2C
+c #D2AA99
+d #6DC2CA
+e #DAD45E
+f #DEEED6

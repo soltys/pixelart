@@ -1,0 +1,20 @@
+# Commodore 64 (16 colours)
+# Converted from Aseprite (data/extensions/hardware-palettes/commodore64.gpl).
+# Keys in Aseprite's colour order: 0-9 a-f
+
+0 #000000
+1 #FFFFFF
+2 #883932
+3 #67B6BD
+4 #8B3F96
+5 #55A049
+6 #40318D
+7 #BFCE72
+8 #8B5429
+9 #574200
+a #B86962
+b #505050
+c #787878
+d #94E089
+e #7869C4
+f #9F9F9F

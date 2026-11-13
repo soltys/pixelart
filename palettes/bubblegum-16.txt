@@ -1,0 +1,22 @@
+# BubbleGum16 (16 colours)
+# by PineTreePizza
+# https://twitter.com/PineTreePizza
+# Converted from Aseprite (data/extensions/pinetreepizza-palettes/bubblegum-16.gpl).
+# Keys in Aseprite's colour order: 0-9 a-f
+
+0 #16171A
+1 #7F0622
+2 #D62411
+3 #FF8426
+4 #FFD100
+5 #FAFDFF
+6 #FF80A4
+7 #FF2674
+8 #94216A
+9 #430067
+a #234975
+b #68AED4
+c #BFFF3C
+d #10D275
+e #007899
+f #002859

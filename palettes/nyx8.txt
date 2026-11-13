@@ -1,0 +1,14 @@
+# nyx8 (8 colours)
+# by Javier Guerrero
+# https://twitter.com/Xavier_Gd
+# Converted from Aseprite (data/extensions/javierguerrero-palettes/nyx8.gpl).
+# Keys in Aseprite's colour order: 0-7
+
+0 #08141E
+1 #0F2A3F
+2 #20394F
+3 #F6D6BD
+4 #C3A38A
+5 #997577
+6 #816271
+7 #4E495F

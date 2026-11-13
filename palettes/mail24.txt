@@ -1,0 +1,30 @@
+# mail24 (24 colours)
+# by Hyohnoo
+# https://twitter.com/Hyohnoo
+# Converted from Aseprite (data/extensions/hyohnoo-palettes/mail24.gpl).
+# Keys in Aseprite's colour order: 0-9 a-n
+
+0 #17111A
+1 #372538
+2 #7A213A
+3 #E14141
+4 #FFA070
+5 #C44D29
+6 #FFBF36
+7 #FFF275
+8 #753939
+9 #CF7957
+a #FFD1AB
+b #39855A
+c #83E04C
+d #DCFF70
+e #243B61
+f #3898FF
+g #6EEEFF
+h #682B82
+i #BF3FB3
+j #FF80AA
+k #3E375C
+l #7884AB
+m #B2BCC2
+n #FFFFFF

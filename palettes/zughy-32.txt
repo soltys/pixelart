@@ -1,0 +1,38 @@
+# Zughy-32 (32 colours)
+# by Zughy
+# https://twitter.com/_Zughy
+# Converted from Aseprite (data/extensions/zughy-palettes/zughy-32.gpl).
+# Keys in Aseprite's colour order: 0-9 a-v
+
+0 #472D3C
+1 #5E3643
+2 #7A444A
+3 #A05B53
+4 #BF7958
+5 #EEA160
+6 #F4CCA1
+7 #B6D53C
+8 #71AA34
+9 #397B44
+a #3C5956
+b #302C2E
+c #5A5353
+d #7D7071
+e #A0938E
+f #CFC6B8
+g #DFF6F5
+h #8AEBF1
+i #28CCDF
+j #3978A8
+k #394778
+l #39314B
+m #564064
+n #8E478C
+o #CD6093
+p #FFAEB6
+q #F4B41B
+r #F47E1B
+s #E6482E
+t #A93B3B
+u #827094
+v #4F546B

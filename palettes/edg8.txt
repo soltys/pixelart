@@ -1,0 +1,14 @@
+# EDG8 (8 colours)
+# By ENDESGA Studios
+# https://twitter.com/ENDESGA
+# Converted from Aseprite (data/extensions/endesga-palettes/edg8.gpl).
+# Keys in Aseprite's colour order: 0-7
+
+0 #FDFDF8
+1 #D32734
+2 #DA7D22
+3 #E6DA29
+4 #28C641
+5 #2D93DD
+6 #7B53AD
+7 #1B1C33

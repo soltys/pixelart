@@ -1,0 +1,48 @@
+# Rosy-42 (42 colours)
+# by PineTreePizza
+# https://twitter.com/PineTreePizza
+# Converted from Aseprite (data/extensions/pinetreepizza-palettes/rosy-42.gpl).
+# Keys in Aseprite's colour order: 0-9 a-z A-F
+
+0 #21181B
+1 #3B2027
+2 #7D3833
+3 #AB5130
+4 #CF752B
+5 #F0B541
+6 #FFEE83
+7 #C8D45D
+8 #63AB3F
+9 #3B7D4F
+a #2F5753
+b #283540
+c #1B1F21
+d #2B2B45
+e #3A3F5E
+f #4C6885
+g #4FA4B8
+h #92E8C0
+i #F5FFE8
+j #DFE0E8
+k #A3A7C2
+l #686F99
+m #404973
+n #2C354D
+o #14182E
+p #4B1D52
+q #692464
+r #9C2A70
+s #CC2F7B
+t #FF5277
+u #FFC2A1
+v #FF8933
+w #E64539
+x #AD2F45
+y #781D4F
+z #4F1D4C
+A #291D2B
+B #3D2936
+C #52333F
+D #8F4D57
+E #BD6A62
+F #FFAE70

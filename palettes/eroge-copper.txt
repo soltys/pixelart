@@ -1,0 +1,23 @@
+# Eroge Copper (16 colours)
+# by Arne Niklas Jansson
+# http://androidarts.com/palette/16pal.htm
+# This palette is made for Eroge games and cold-warm ramp games like Xenon II, Killing Gameshow, Paradroid 90. Because of the Eroge focus, I've included two warm / skin tone ramps. The green should ramp into the dark teal.
+# Converted from Aseprite (data/extensions/arne-palettes/eroge-copper.gpl).
+# Keys in Aseprite's colour order: 0-9 a-f
+
+0 #7D3840
+1 #0D080D
+2 #2A2349
+3 #4180A0
+4 #32535F
+5 #74ADBB
+6 #7BB24E
+7 #FFF9E4
+8 #BEBBB2
+9 #FBDF9B
+a #F0BD77
+b #C59154
+c #825B31
+d #E89973
+e #C16C5B
+f #4F2B24

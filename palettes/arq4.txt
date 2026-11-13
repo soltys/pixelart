@@ -1,0 +1,10 @@
+# ARQ4 (4 colours)
+# By ENDESGA Studios
+# https://twitter.com/ENDESGA
+# Converted from Aseprite (data/extensions/endesga-palettes/arq4.gpl).
+# Keys in Aseprite's colour order: 0-3
+
+0 #FFFFFF
+1 #6772A9
+2 #3A3277
+3 #000000

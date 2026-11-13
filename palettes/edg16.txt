@@ -1,0 +1,22 @@
+# EDG16 (16 colours)
+# By ENDESGA Studios
+# https://twitter.com/ENDESGA
+# Converted from Aseprite (data/extensions/endesga-palettes/edg16.gpl).
+# Keys in Aseprite's colour order: 0-9 a-f
+
+0 #E4A672 Birch
+1 #B86F50 Oak
+2 #743F39 Pine
+3 #3F2832 Darkbark
+4 #9E2835 Blood
+5 #E53B44 Fabric
+6 #FB922B Candle
+7 #FFE762 Glow
+8 #63C64D Flora
+9 #327345 Moss
+a #193D3F Mold
+b #4F6781 Iron
+c #AFBFD2 Aluminium
+d #FFFFFF White
+e #2CE8F4 Ion
+f #0484D1 Archaeon

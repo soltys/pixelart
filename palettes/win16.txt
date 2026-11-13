@@ -1,0 +1,20 @@
+# Win16 (16 colours)
+# Converted from Aseprite (data/extensions/software-palettes/win16.gpl).
+# Keys in Aseprite's colour order: 0-9 a-f
+
+0 #000000
+1 #820000
+2 #008200
+3 #828200
+4 #000082
+5 #820082
+6 #008282
+7 #C3C3C3
+8 #828282
+9 #FF0000
+a #00FF00
+b #FFFF00
+c #0000FF
+d #FF00FF
+e #00FFFF
+f #FFFFFF

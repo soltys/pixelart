@@ -1,0 +1,23 @@
+# JMP (16 colours)
+# by Arne Niklas Jansson
+# http://androidarts.com/palette/16pal.htm
+# Japanese Machine Palette, inspired by the MSX.
+# Converted from Aseprite (data/extensions/arne-palettes/jmp.gpl).
+# Keys in Aseprite's colour order: 0-9 a-f
+
+0 #000000
+1 #191028
+2 #46AF45
+3 #A1D685
+4 #453E78
+5 #7664FE
+6 #833129
+7 #9EC2E8
+8 #DC534B
+9 #E18D79
+a #D6B97B
+b #E9D8A1
+c #216C4B
+d #D365C8
+e #AFAAB9
+f #F5F4EB

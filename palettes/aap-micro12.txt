@@ -1,0 +1,25 @@
+# AAP-Micro12 (12 colours)
+# ------------------------------------------------------
+# T h e   A A P - M i c r o 1 2   P a l e t t e
+# ------------------------------------------------------
+# Created by Adigun Azikiwe Polack.
+# (c)2018 Adigun Azikiwe Polack.  All Rights Reserved.
+# ------------------------------------------------------
+# https://twitter.com/AdigunPolack
+# http://pixeljoint.com/pixelart/121151.htm
+# by Adigun A. Polack (https://twitter.com/AdigunPolack)
+# Converted from Aseprite (data/extensions/adigunpolack-palettes/aap-micro12.gpl).
+# Keys in Aseprite's colour order: 0-9 a-b
+
+0 #040303 Rich Black (FOGRA39)
+1 #1C1618 Eerie Black
+2 #47416B Independence
+3 #6C8C50 Palm Leaf
+4 #E3D245 Sandstorm
+5 #D88038 Bronze
+6 #A13D3B Smoky Topaz
+7 #4E282E Acajou
+8 #9A407E Magenta Haze
+9 #F0D472 Hansa Yellow
+a #F9F5EF Seashell
+b #8A8FC4 Ube

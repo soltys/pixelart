@@ -1,0 +1,32 @@
+# CPC (27 colours)
+# http://www.cpcwiki.eu/index.php/CPC_Palette
+# Converted from Aseprite (data/extensions/hardware-palettes/cpc.gpl).
+# Keys in Aseprite's colour order: 0-9 a-q
+
+0 #000000 Black
+1 #000080 Blue
+2 #0000FF Bright Blue
+3 #800000 Red
+4 #800080 Magenta
+5 #8000FF Mauve
+6 #FF0000 Bright Red
+7 #FF0080 Purple
+8 #FF00FF Bright Magenta
+9 #008000 Green
+a #008080 Cyan
+b #0080FF Sky Blue
+c #808000 Yellow
+d #808080 White
+e #8080FF Pastel Blue
+f #FF8000 Orange
+g #FF8080 Pink
+h #FF80FF Pastel Magenta
+i #00FF00 Bright Green
+j #00FF80 Sea Green
+k #00FFFF Bright Cyan
+l #80FF00 Lime
+m #80FF80 Pastel Green
+n #80FFFF Pastel Cyan
+o #FFFF00 Bright Yellow
+p #FFFF80 Pastel Yellow
+q #FFFFFF Bright White

@@ -1,0 +1,23 @@
+# Copper Tech (16 colours)
+# by Arne Niklas Jansson
+# http://androidarts.com/palette/16pal.htm
+# A cold-warm ramp palette, more focused on tech. RGB extras.
+# Converted from Aseprite (data/extensions/arne-palettes/copper-tech.gpl).
+# Keys in Aseprite's colour order: 0-9 a-f
+
+0 #262144
+1 #1651DD
+2 #898989
+3 #355278
+4 #60748A
+5 #91D9F3
+6 #5AA8B2
+7 #6EA92C
+8 #BFB588
+9 #F4CD72
+a #C58843
+b #9E5B47
+c #DC392D
+d #5F4351
+e #FFFFFF
+f #000000

@@ -54,7 +54,7 @@
 
 #define MAX_DIM    256
 #define MAX_SCALES 8
-#define MAX_COLORS 94 /* printable ASCII minus '.', '#' and space */
+#define MAX_COLORS 92 /* printable ASCII (94) minus '.' and '#' */
 
 /* ------------------------------------------------------------ palette ---- */
 

@@ -1,6 +1,8 @@
-# The four greens of the original Game Boy screen, darkest to lightest.
-# Use with:  pixelart -p palettes\gameboy.txt examples\gameboy.txt
-0 #0F380F darkest
-1 #306230 dark
-2 #8BAC0F light
-3 #9BBC0F lightest
+# Game Boy (4 colours)
+# Converted from Aseprite (data/extensions/hardware-palettes/gameboy.gpl).
+# Keys in Aseprite's colour order: 0-3
+
+0 #9BBC0F
+1 #8BAC0F
+2 #306230
+3 #0F380F

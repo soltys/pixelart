@@ -1,0 +1,20 @@
+# Apple II (16 colours)
+# Converted from Aseprite (data/extensions/hardware-palettes/apple-ii.gpl).
+# Keys in Aseprite's colour order: 0-9 a-f
+
+0 #000000 Black
+1 #6C2940 Magenta
+2 #403578 Dark Blue
+3 #D93CF0 Purple
+4 #135740 Dark Green
+5 #808080 Grey #1
+6 #2697F0 Medium Blue
+7 #BFB4F8 Light Blue
+8 #404B07 Brown
+9 #D9680F Orange
+a #808080 Grey #2
+b #ECA8BF Pink
+c #26C30F Green
+d #BFCA87 Yellow
+e #93D6BF Aqua
+f #FFFFFF White

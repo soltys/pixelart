@@ -1,0 +1,10 @@
+# EN4 (4 colours)
+# By ENDESGA Studios
+# https://twitter.com/ENDESGA
+# Converted from Aseprite (data/extensions/endesga-palettes/en4.gpl).
+# Keys in Aseprite's colour order: 0-3
+
+0 #FBF7F3
+1 #E5B083
+2 #426E5D
+3 #20283D

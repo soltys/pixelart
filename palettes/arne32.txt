@@ -1,0 +1,38 @@
+# ARNE32 (32 colours)
+# by Arne Niklas Jansson
+# http://androidarts.com/palette/16pal.htm
+# Converted from Aseprite (data/extensions/arne-palettes/arne32.gpl).
+# Keys in Aseprite's colour order: 0-9 a-v
+
+0 #000000
+1 #9D9D9D
+2 #FFFFFF
+3 #BE2633
+4 #E06F8B
+5 #493C2B
+6 #A46422
+7 #EB8931
+8 #F7E26B
+9 #2F484E
+a #44891A
+b #A3CE27
+c #1B2632
+d #005784
+e #31A2F2
+f #B2DCEF
+g #342A97
+h #656D71
+i #CCCCCC
+j #732930
+k #CB43A7
+l #524F40
+m #AD9D33
+n #EC4700
+o #FAB40B
+p #115E33
+q #14807E
+r #15C2A5
+s #225AF6
+t #9964F9
+u #F78ED6
+v #F4B990

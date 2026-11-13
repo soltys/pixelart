@@ -1,0 +1,22 @@
+# ARQ16 (16 colours)
+# By ENDESGA Studios
+# https://twitter.com/ENDESGA
+# Converted from Aseprite (data/extensions/endesga-palettes/arq16.gpl).
+# Keys in Aseprite's colour order: 0-9 a-f
+
+0 #FFFFFF
+1 #FFD19D
+2 #AEB5BD
+3 #4D80C9
+4 #054494
+5 #511E43
+6 #100820
+7 #823E2C
+8 #E93841
+9 #F1892D
+a #FFE947
+b #FFA9A9
+c #EB6C82
+d #7D3EBF
+e #1E8A4C
+f #5AE150

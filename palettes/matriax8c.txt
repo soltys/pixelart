@@ -1,0 +1,14 @@
+# Matriax8c (8 colours)
+# by Davit Masia
+# https://twitter.com/DavitMasia
+# Converted from Aseprite (data/extensions/davitmasia-palettes/matriax8c.gpl).
+# Keys in Aseprite's colour order: 0-7
+
+0 #F0F0DC
+1 #FAC800
+2 #10C840
+3 #00A0C8
+4 #D24040
+5 #A06E46
+6 #736464
+7 #101820

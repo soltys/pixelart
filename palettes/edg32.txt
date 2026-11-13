@@ -1,0 +1,38 @@
+# EDG32 (32 colours)
+# By ENDESGA Studios
+# https://twitter.com/ENDESGA
+# Converted from Aseprite (data/extensions/endesga-palettes/edg32.gpl).
+# Keys in Aseprite's colour order: 0-9 a-v
+
+0 #BE4A2F Tetanus
+1 #D87644 Rust
+2 #EAD4AA Birch
+3 #E4A672 Sap
+4 #B86F50 Oak
+5 #743F39 Pine
+6 #3F2832 Darkbark
+7 #9E2835 Blood
+8 #E43B44 Fabric
+9 #F77622 Amber
+a #FEAE34 Glow
+b #FEE761 Light
+c #63C74D Glade
+d #3E8948 Flora
+e #265C42 Moss
+f #193C3E Mold
+g #124E89 Deep
+h #0095E9 Archaeon
+i #2CE8F5 Ion
+j #FFFFFF White
+k #C0CBDC Aluminium
+l #8B9BB4 Zinc
+m #5A6988 Iron
+n #3A4466 Steel
+o #262B44 Shade
+p #FF0044 Iiem
+q #181425 Ink
+r #68386C Lilac
+s #B55088 Petal
+t #F6757A Peach
+u #E8B796 Skin
+v #C28569 Shadeskin

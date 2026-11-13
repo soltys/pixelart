@@ -1,0 +1,42 @@
+# Game Boy Color Type1 (38 colours)
+# Converted from Aseprite (data/extensions/hardware-palettes/gameboy-color-type1.gpl).
+# Keys in Aseprite's colour order: 0-9 a-z A-B
+
+0 #000000
+1 #000000
+2 #FFAD63
+3 #833100
+4 #FFFFFF
+5 #F7C4A5
+6 #7BFF30
+7 #008300
+8 #65A49B
+9 #0000FE
+a #FF8584
+b #943A3A
+c #E60000
+d #FFE7C5
+e #CE9C85
+f #846B29
+g #5B315B
+h #A56B31
+i #64A5FF
+j #8B8CDE
+k #53528C
+l #A5A5A5
+m #525252
+n #949494
+o #FE9494
+p #9394FE
+q #FFFFA5
+r #FF00FE
+s #FFFF00
+t #FE0000
+u #7D4900
+v #FFFF3A
+w #3A2802
+x #51FF00
+y #FF4200
+z #0163C6
+A #008486
+B #FFDE00

@@ -1,0 +1,23 @@
+# AAP-RadiantXV (15 colours)
+# AAP-RadiantXV
+# Created by Adigun Polack for the PixelJoint 15 Color Palette Competition
+# https://twitter.com/adigunpolack
+# by Adigun A. Polack (https://twitter.com/AdigunPolack)
+# Converted from Aseprite (data/extensions/adigunpolack-palettes/aap-radiantxv.gpl).
+# Keys in Aseprite's colour order: 0-9 a-e
+
+0 #070505 #070505
+1 #211919 #211919
+2 #523A2A #523a2a
+3 #8A6B3E #8a6b3e
+4 #C19C4D #c19c4d
+5 #EADB74 #eadb74
+6 #A0B335 #a0b335
+7 #537C44 #537c44
+8 #423C56 #423c56
+9 #596FAF #596faf
+a #6BB9B6 #6bb9b6
+b #B8AAB0 #b8aab0
+c #79707E #79707e
+d #57627A #57627a
+e #945B28 #945b28

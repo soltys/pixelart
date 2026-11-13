@@ -1,0 +1,22 @@
+# ARNE16 (16 colours)
+# by Arne Niklas Jansson
+# http://androidarts.com/palette/16pal.htm
+# Converted from Aseprite (data/extensions/arne-palettes/arne16.gpl).
+# Keys in Aseprite's colour order: 0-9 a-f
+
+0 #000000 black, void
+1 #9D9D9D grey, gray, ash
+2 #FFFFFF white, blind
+3 #BE2633 red, bloodred
+4 #E06F8B pink, pigmeat
+5 #493C2B dbrown, darkbrown, oldpoop
+6 #A46422 brown, newpoop
+7 #EB8931 orange, blaze
+8 #F7E26B yellow, zornskin
+9 #2F484E green, leafgreen
+a #44891A dgreen, darkgreen, shadegreen
+b #A3CE27 green, lightgreen, slimegreen
+c #1B2632 nblue, nightblue
+d #005784 dblue, darkblue, seablue, oceanblue
+e #31A2F2 blue, skyblue
+f #B2DCEF lblue, lightblue, cloudblue

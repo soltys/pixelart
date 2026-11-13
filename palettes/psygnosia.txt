@@ -1,0 +1,23 @@
+# Psygnosia (16 colours)
+# by Arne Niklas Jansson
+# http://androidarts.com/palette/16pal.htm
+# Inspired by the game Ork by Psygnosis
+# Converted from Aseprite (data/extensions/arne-palettes/psygnosia.gpl).
+# Keys in Aseprite's colour order: 0-9 a-f
+
+0 #A2324E
+1 #443F41
+2 #1B1E29
+3 #362747
+4 #64647C
+5 #516CBF
+6 #CBE8F7
+7 #9EA4A7
+8 #003308
+9 #084A3C
+a #546A00
+b #52524C
+c #736150
+d #77785B
+e #E08B79
+f #000000

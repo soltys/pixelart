@@ -1,0 +1,12 @@
+# Teletext (8 colours)
+# Converted from Aseprite (data/extensions/hardware-palettes/teletext.gpl).
+# Keys in Aseprite's colour order: 0-7
+
+0 #000000
+1 #0000FF
+2 #FF0000
+3 #FF00FF
+4 #00FF00
+5 #00FFFF
+6 #FFFF00
+7 #FFFFFF

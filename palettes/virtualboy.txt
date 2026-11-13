@@ -1,0 +1,10 @@
+# Virtual Boy (4 colours)
+# Thanks to Planet Virtual Boy for the contribution
+# http://www.planetvb.com/
+# Converted from Aseprite (data/extensions/hardware-palettes/virtualboy.gpl).
+# Keys in Aseprite's colour order: 0-3
+
+0 #000000
+1 #550000
+2 #AA0000
+3 #FF0000

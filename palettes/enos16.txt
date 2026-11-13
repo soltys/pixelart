@@ -1,0 +1,22 @@
+# ENOS16 (16 colours)
+# By ENDESGA Studios
+# https://twitter.com/ENDESGA
+# Converted from Aseprite (data/extensions/endesga-palettes/enos16.gpl).
+# Keys in Aseprite's colour order: 0-9 a-f
+
+0 #FAFAFA
+1 #D4D4D4
+2 #9D9D9D
+3 #4B4B4B
+4 #F9D381
+5 #EAAF4D
+6 #F9938A
+7 #E75952
+8 #9AD1F9
+9 #58AEEE
+a #8DEDA7
+b #44C55B
+c #C3A7E1
+d #9569C8
+e #BAB5AA
+f #948E82

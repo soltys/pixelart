@@ -1,0 +1,23 @@
+# A64 (16 colours)
+# by Arne Niklas Jansson
+# http://androidarts.com/palette/16pal.htm
+# Based on the c64 palette
+# Converted from Aseprite (data/extensions/arne-palettes/a64.gpl).
+# Keys in Aseprite's colour order: 0-9 a-f
+
+0 #000000
+1 #313A91
+2 #4C3435
+3 #B14863
+4 #485454
+5 #7655A2
+6 #92562B
+7 #8385CF
+8 #808078
+9 #509450
+a #CD9373
+b #8FBFD5
+c #9CABB1
+d #BBC840
+e #9CCC47
+f #EDE6C8

@@ -1,0 +1,37 @@
+# HEPT32 (32 colours)
+# by ENDESGA Studios (https://twitter.com/ENDESGA)
+# Converted from Aseprite (data/extensions/endesga-palettes/hept32.gpl).
+# Keys in Aseprite's colour order: 0-9 a-v
+
+0 #000000
+1 #180D2F
+2 #353658
+3 #686B72
+4 #8B97B6
+5 #C5CDDB
+6 #FFFFFF
+7 #5EE9E9
+8 #2890DC
+9 #1831A7
+a #053239
+b #005F41
+c #08B23B
+d #47F641
+e #E8FF75
+f #FBBE82
+g #DE9751
+h #B66831
+i #8A4926
+j #461C14
+k #1E090D
+l #720D0D
+m #813704
+n #DA2424
+o #EF6E10
+p #ECAB11
+q #ECE910
+r #F78D8D
+s #F94E6D
+t #C12458
+u #841252
+v #3D083B

@@ -1,0 +1,38 @@
+# DB32 (32 colours)
+# by Richard "DawnBringer" Fhager
+# http://pixeljoint.com/forum/forum_posts.asp?TID=16247
+# Converted from Aseprite (data/extensions/dawnbringer-palettes/db32.gpl).
+# Keys in Aseprite's colour order: 0-9 a-v
+
+0 #000000
+1 #222034
+2 #45283C
+3 #663931
+4 #8F563B
+5 #DF7126
+6 #D9A066
+7 #EEC39A
+8 #FBF236
+9 #99E550
+a #6ABE30
+b #37946E
+c #4B692F
+d #524B24
+e #323C39
+f #3F3F74
+g #306082
+h #5B6EE1
+i #639BFF
+j #5FCDE4
+k #CBDBFC
+l #FFFFFF
+m #9BADB7
+n #847E87
+o #696A6A
+p #595652
+q #76428A
+r #AC3232
+s #D95763
+t #D77BBA
+u #8F974A
+v #8A6F30

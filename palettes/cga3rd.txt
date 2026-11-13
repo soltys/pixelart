@@ -1,0 +1,8 @@
+# CGA3rd (4 colours)
+# Converted from Aseprite (data/extensions/hardware-palettes/cga3rd.gpl).
+# Keys in Aseprite's colour order: 0-3
+
+0 #000000 Black
+1 #00AAAA Cyan
+2 #AA0000 Red
+3 #AAAAAA Light Gray

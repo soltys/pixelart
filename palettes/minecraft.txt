@@ -1,0 +1,54 @@
+# Minecraft (48 colours)
+# Based on Minecraft 1.14 default texture
+# Order: wool, concrete, terracotta
+# Converted from Aseprite (data/extensions/software-palettes/minecraft.gpl).
+# Keys in Aseprite's colour order: 0-9 a-z A-L
+
+0 #EAEDED white_wool
+1 #F17716 orange_wool
+2 #BE46B5 magenta_wool
+3 #3CB0DA light_blue_wool
+4 #F9C629 yellow_wool
+5 #71BA1A lime_wool
+6 #EE90AD pink_wool
+7 #3F4548 gray_wool
+8 #8E8F87 light_gray_wool
+9 #158A91 cyan_wool
+a #7B2BAD purple_wool
+b #353A9E blue_wool
+c #734829 brown_wool
+d #556E1C green_wool
+e #A12823 red_wool
+f #16161B black_wool
+g #CFD5D6 white_concrete
+h #E06101 orange_concrete
+i #A9309F magenta_concrete
+j #2489C7 light_blue_concrete
+k #F1AF15 yellow_concrete
+l #5EA919 lime_concrete
+m #D6658F pink_concrete
+n #373A3E gray_concrete
+o #7D7D73 light_gray_concrete
+p #157788 cyan_concrete
+q #64209C purple_concrete
+r #2D2F8F blue_concrete
+s #603C20 brown_concrete
+t #495B24 green_concrete
+u #8E2121 red_concrete
+v #080A0F black_concrete
+w #D2B2A1 white_terracotta
+x #A25426 orange_terracotta
+y #96586D magenta_terracotta
+z #726D8A light_blue_terracotta
+A #BA8523 yellow_terracotta
+B #687635 lime_terracotta
+C #A24E4F pink_terracotta
+D #3A2A24 gray_terracotta
+E #876B62 light_gray_terracotta
+F #575B5B cyan_terracotta
+G #764656 purple_terracotta
+H #4A3C5B blue_terracotta
+I #4D3324 brown_terracotta
+J #4C532A green_terracotta
+K #8F3D2F red_terracotta
+L #251710 black_terracotta

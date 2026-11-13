@@ -1,0 +1,8 @@
+# CGA1 (4 colours)
+# Converted from Aseprite (data/extensions/hardware-palettes/cga1.gpl).
+# Keys in Aseprite's colour order: 0-3
+
+0 #000000 Black
+1 #00AAAA Cyan
+2 #AA00AA Magenta
+3 #AAAAAA Light Gray

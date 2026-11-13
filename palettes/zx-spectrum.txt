@@ -1,0 +1,21 @@
+# ZX Spectrum (16 colours)
+# ZX Spectrum
+# Converted from Aseprite (data/extensions/hardware-palettes/zx-spectrum.gpl).
+# Keys in Aseprite's colour order: 0-9 a-f
+
+0 #000000 Black
+1 #0000C0 Basic Blue
+2 #C00000 Basic Red
+3 #C000C0 Basic Magenta
+4 #00C000 Basic Green
+5 #00C0C0 Basic Cyan
+6 #C0C000 Basic Yellow
+7 #C0C0C0 Basic White
+8 #000000 Black
+9 #0000FF Bright Blue
+a #FF0000 Bright Red
+b #FF00FF Bright Magenta
+c #00FF00 Bright Green
+d #00FFFF Bright Cyan
+e #FFFF00 Bright Yellow
+f #FFFFFF Bright White

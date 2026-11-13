@@ -1,0 +1,22 @@
+# CGArne (16 colours)
+# by Arne Niklas Jansson
+# http://androidarts.com/palette/16pal.htm
+# Converted from Aseprite (data/extensions/arne-palettes/cg-arne.gpl).
+# Keys in Aseprite's colour order: 0-9 a-f
+
+0 #000000
+1 #2234D1
+2 #0C7E45
+3 #44AACC
+4 #8A3622
+5 #5C2E78
+6 #AA5C3D
+7 #B5B5B5
+8 #5E606E
+9 #4C81FB
+a #6CD947
+b #7BE2F9
+c #EB8A60
+d #E23D69
+e #FFD93F
+f #FFFFFF

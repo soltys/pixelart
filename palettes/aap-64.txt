@@ -1,0 +1,74 @@
+# AAP-64 (64 colours)
+# Palette Name: AAP-64
+# Description: Created by Adigun Polack
+# Colors: 64
+# https://twitter.com/AdigunPolack
+# http://pixeljoint.com/pixelart/119466.htm
+# by Adigun A. Polack (https://twitter.com/AdigunPolack)
+# Converted from Aseprite (data/extensions/adigunpolack-palettes/aap-64.gpl).
+# Keys in Aseprite's colour order: 0-9 a-z A-Z !"
+
+0 #060608 #060608
+1 #141013 #141013
+2 #3B1725 #3b1725
+3 #73172D #73172d
+4 #B4202A #b4202a
+5 #DF3E23 #df3e23
+6 #FA6A0A #fa6a0a
+7 #F9A31B #f9a31b
+8 #FFD541 #ffd541
+9 #FFFC40 #fffc40
+a #D6F264 #d6f264
+b #9CDB43 #9cdb43
+c #59C135 #59c135
+d #14A02E #14a02e
+e #1A7A3E #1a7a3e
+f #24523B #24523b
+g #122020 #122020
+h #143464 #143464
+i #285CC4 #285cc4
+j #249FDE #249fde
+k #20D6C7 #20d6c7
+l #A6FCDB #a6fcdb
+m #FFFFFF #ffffff
+n #FEF3C0 #fef3c0
+o #FAD6B8 #fad6b8
+p #F5A097 #f5a097
+q #E86A73 #e86a73
+r #BC4A9B #bc4a9b
+s #793A80 #793a80
+t #403353 #403353
+u #242234 #242234
+v #221C1A #221c1a
+w #322B28 #322b28
+x #71413B #71413b
+y #BB7547 #bb7547
+z #DBA463 #dba463
+A #F4D29C #f4d29c
+B #DAE0EA #dae0ea
+C #B3B9D1 #b3b9d1
+D #8B93AF #8b93af
+E #6D758D #6d758d
+F #4A5462 #4a5462
+G #333941 #333941
+H #422433 #422433
+I #5B3138 #5b3138
+J #8E5252 #8e5252
+K #BA756A #ba756a
+L #E9B5A3 #e9b5a3
+M #E3E6FF #e3e6ff
+N #B9BFFB #b9bffb
+O #849BE4 #849be4
+P #588DBE #588dbe
+Q #477D85 #477d85
+R #23674E #23674e
+S #328464 #328464
+T #5DAF8D #5daf8d
+U #92DCBA #92dcba
+V #CDF7E2 #cdf7e2
+W #E4D2AA #e4d2aa
+X #C7B08B #c7b08b
+Y #A08662 #a08662
+Z #796755 #796755
+! #5A4E44 #5a4e44
+" #423934 #423934

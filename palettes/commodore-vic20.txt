@@ -1,0 +1,20 @@
+# Commodore VIC-20 (16 colours)
+# Converted from Aseprite (data/extensions/hardware-palettes/commodore-vic20.gpl).
+# Keys in Aseprite's colour order: 0-9 a-f
+
+0 #000000
+1 #FFFFFF
+2 #782922
+3 #87D6DD
+4 #AA5FB6
+5 #1A8226
+6 #40318D
+7 #BFCE72
+8 #AA7449
+9 #EAB489
+a #B86962
+b #C7FFFF
+c #EA9FF6
+d #94E089
+e #8071CC
+f #FFFFB2

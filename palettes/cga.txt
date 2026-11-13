@@ -1,0 +1,20 @@
+# CGA (16 colours)
+# Converted from Aseprite (data/extensions/hardware-palettes/cga.gpl).
+# Keys in Aseprite's colour order: 0-9 a-f
+
+0 #000000 Black
+1 #0000AA Blue
+2 #00AA00 Green
+3 #00AAAA Cyan
+4 #AA0000 Red
+5 #AA00AA Magenta
+6 #AA5500 Brown
+7 #AAAAAA Light Gray
+8 #555555 Gray
+9 #5555FF Light Blue
+a #55FF55 Light Green
+b #55FFFF Light Cyan
+c #FF5555 Light Red
+d #FF55FF Light Magenta
+e #FFFF55 Yellow
+f #FFFFFF White

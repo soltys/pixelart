@@ -1,0 +1,23 @@
+# SmileBASIC (18 colours)
+# SmileBASIC: http://smilebasic.com/en/reference/#constant
+# Converted from Aseprite (data/extensions/software-palettes/smile-basic.gpl).
+# Keys in Aseprite's colour order: 0-9 a-h
+
+0 #00F8F8 AQUA
+1 #000000 BLACK
+2 #0000FF BLUE
+3 #0000F8 CYAN
+4 #F800F8 FUCHSIA
+5 #808080 GRAY
+6 #008000 GREEN
+7 #00F800 LIME
+8 #F800F8 MAGENTA
+9 #800000 MAROON
+a #000080 NAVY
+b #808000 OLIVE
+c #800080 PURPLE
+d #F80000 RED
+e #C0C0C0 SILVER
+f #008080 TEAL
+g #F8F8F8 WHITE
+h #F8F800 YELLOW
